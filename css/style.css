@@ -1,0 +1,380 @@
+body {
+    height: 5000px;
+    font-family: 'Ubuntu'
+}
+
+/*------------------------------ Start The Navbar 1 -----------------------------*/
+.hesham-nav {
+    background-color: #FA7270;
+    color: #FFF;
+    z-index: 9998
+}
+.hesham-nav .bicon {
+    margin-right: 15px;
+    font-size: 28px
+}
+.hesham-nav .navbar-brand {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 28px
+}
+.hesham-nav .navbar-brand span {
+    font-weight: 300
+}
+.hesham-nav .navbar-nav .nav-link {
+    color: #FFF
+}
+.hesham-nav .dropdown-item:hover {
+    background-color:#FFF;
+    color: #FA7270
+}
+.hesham-nav .sign-up {
+    border: 2px solid #FFF;
+    border-radius: 25px;
+    background-color: #FA7270;
+    color: #FFF;
+    margin-left: 20px;
+    padding: 7px 30px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.hesham-nav .sign-up:hover {
+    border: 2px solid #FFF;
+    border-radius: 25px;
+    background-color: #FFF;
+    color: #FA7270
+}
+
+/*------------------------------ Start The Navbar 2 -----------------------------*/
+.hesham-nav2 {
+    background-color: #FFF;
+    color: #000;
+    z-index: 9999;
+    display: none
+}
+.hesham-nav2 .bicon {
+    margin-right: 15px;
+    font-size: 28px
+}
+.hesham-nav2 .navbar-brand {
+    color: #FA7270;
+    font-weight: 700;
+    font-size: 28px
+}
+.hesham-nav2 .navbar-brand span {
+    font-weight: 300;
+    color: #2d3942
+}
+.hesham-nav2 .navbar-nav .nav-link {
+    color: #25333e
+}
+.hesham-nav2 .dropdown-item:hover {
+    background-color:#FA7270;
+    color: #FFF
+}
+.hesham-nav2 .sign-up {
+    border: 2px solid #FA7270;
+    border-radius: 25px;
+    color: #FA7270;
+    margin-left: 20px;
+    padding: 7px 30px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.hesham-nav2 .sign-up:hover {
+    border: 2px solid #FA7270;
+    border-radius: 25px;
+    background-color: #FA7270;
+    color: #FFF
+}
+
+
+/*------------------------------ Start The Banner -----------------------------*/
+.banner {
+    padding-top: 35px;
+    padding-bottom: 65px;
+    background-color: #FA7270;
+    color: #FFF;
+    height: 785px
+}
+.banner h1 {
+    font-size: 71px;
+    font-weight: bold;
+    padding-bottom: 25px
+}
+.banner p {
+    line-height: 35px;
+    width: 81%;
+    padding-left: 165px
+}
+.banner .banner-button {
+    color: #FFF;
+    margin-bottom: 50px
+}
+.banner .banner-button .free {
+    width: 156px;
+    border: 1px solid #FFF;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.banner .banner-button .free:hover {
+    background-color: #FFF;
+    color: #FA7270
+}
+.banner .banner-button a {
+    color: #FFF;
+
+}
+.banner .banner-button i {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 70px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 16px
+}
+
+.banner .b-img {
+    position: absolute;
+    max-width: 970px;
+    margin: 0 60px
+}
+.banner .b-img img {
+    -webkit-box-shadow: 0 60px 100px 0 rgba(2,2,2,0.3);
+    -moz-box-shadow: 0 60px 100px 0 rgba(2,2,2,0.3);
+    -o-box-shadow: 0 60px 100px 0 rgba(2,2,2,0.3);
+    box-shadow: 0 60px 100px 0 rgba(2,2,2,0.3);
+    border-radius: 10px
+}
+
+/*------------------------------ Start The Features -----------------------------*/
+.feature {
+    padding-top: 500px
+}
+.feature .feature-title h3 {
+    padding-bottom: 25px;
+    color: #FA7270
+}
+.feature .feature-title h2 {
+    padding-bottom: 50px;
+    color: #2d424d
+}
+.feature .feature-body .feat {
+    border: 1px solid #979ba5;
+    border-radius: 5px;
+    padding: 30px 25px 30px 18px;
+    margin-bottom: 35px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.feature .feature-body .feat:hover {
+    background-color: #ebeef1;
+    -webkit-box-shadow: 0 60px 100px 0 rgba(2,2,2,0.3);
+    -moz-box-shadow: 0 60px 100px 0 rgba(2,2,2,0.3);
+    -o-box-shadow: 0 60px 100px 0 rgba(2,2,2,0.3);
+    box-shadow: 0 60px 100px 0 rgba(2,2,2,0.3);
+}
+.feature .feature-body img {
+    max-width: 75px;
+    margin: 10px 200px 10px 0
+}
+.feature .feature-body h3 {
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 30px
+}
+.feature .feature-body p {
+    line-height: 40px;
+    text-align: left;
+    color: #757c82
+}
+.feature .feature-body a {
+    margin: 10px 313px 5px 5px;
+    text-decoration: none
+}
+.feature .feature-body a i {
+    font-size: 30px;
+    color: #888c91;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.feature .feature-body a i:hover {
+    color: #FA7270
+}
+
+/*------------------------------ Start The Info -----------------------------*/
+.info {
+    margin-top: 155px;
+    margin-bottom: 35px
+}
+.info h2 {
+    color: #2b2350;
+    margin-top: 95px;
+    margin-bottom: 25px
+}
+.info p {
+    color: #797687;
+    margin-bottom: 35px
+}
+.info ul {
+    margin-bottom: 35px
+}
+.info ul li {
+    padding-bottom: 15px;
+    color: #2b2350
+}
+.info ul li i {
+    margin-right: 15px;
+    color: #FA7270
+}
+.info .b-info {
+    border: 1px solid #FA7270;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-bottom: 35px;
+    color: #FA7270;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.info .b-info:hover {
+    background-color: #FA7270;
+    color: #FFF
+}
+.info .info1 {
+    margin-left: 95px;
+    position: absolute;
+    z-index: 1
+}
+.info .info2 {
+    margin-left: 50px;
+    position: absolute;
+    transform: translate(-59px, 167px);
+    z-index: 2
+}
+
+/*------------------------------ Start The Services -----------------------------*/
+.service {
+    margin-top: 195px;
+    margin-bottom: 50px
+}
+.service .s-title1 {
+    padding-bottom: 15px;
+    color: #FA7270;
+    font-size: 19px
+}
+.service .s-title2 {
+    padding-bottom: 25px;
+    color: #2b374a
+}
+.service img {
+    width: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+.service p {
+    margin-bottom: 50px
+}
+
+
+/*------------------------------ Start The Subscribe -----------------------------*/
+.subscribe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 435px;
+    background-color: #FA7270
+}
+.subscribe h2 {
+    color: #FFF;
+    padding-top: 160px
+}
+.subscribe button {
+    margin-top: 175px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    color: #FA7270;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.subscribe button:hover {
+    border: 2px solid #FFF;
+    background-color: #FA7270;
+    color: #FFF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------ Fonts : -------------------------------------*/
+/*
+font-family: 'Open Sans' , 'Oxanium', 'Source Sans Pro', 'Tajawal', 'Roboto Slab' ;
+font-family: 'Caladea', 'PT Sans', 'Ubuntu', 'Lora', 'Titillium Web', 'Noto Sans KR' ;
+font-family: 'Cabin', 'Arvo', 'Pacifico', 'Overpass', 'ZCOOL QingKe HuangYou', 'Source Code Pro' ;
+
+
+
+font-family: 'cocon-next-arabic', 'dubai', 'dubai-medium', 'dubai-bold', 'sky-bold', 'rawy-bold';
+font-family: 'rawy-thin', 'lemonada-bold', 'lemonada', 'elmessiri-light', 'elmessiri-bold';
+font-family: 'elmessiri', 'cairo', 'jazeera-light', 'sky', 'bahij', 'saudi', 'droid-naskh';
+font-family: 'insan', 'esfahan', 'Ibtisam', 'hayah', 'nawar', 'jannat', 'rawi', 'jazeera';
+font-family: 'droid-sans', 'DroidKufi-Regular', 'amiri', 'flat-jooza';
+*/
